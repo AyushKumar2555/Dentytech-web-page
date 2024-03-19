@@ -1,1 +1,1 @@
-DEntytech landing page using html and css
+I develop Dentytech landing page using html and css
