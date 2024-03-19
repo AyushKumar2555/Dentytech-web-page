@@ -1,0 +1,172 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold?styles=20878');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size:medium;
+        /* font-weight: lighter; */
+        font-family: 'Gilroy-Light', sans-serif;
+        
+
+
+      }
+      
+    
+      
+    html, body{
+    height: 100%;
+    width: 100%;
+    }
+    #main{
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        
+    }
+    #nav{
+        height: 100px;
+        width: 100%;
+        /* background-color: gray; */
+        /* margin-top: 50px; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #nav1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* gap: 5px; */
+    }
+    #nav1 h3{
+        font-size: 16px;
+        font-weight: 500;
+        border: 1.5px solid black;
+        padding: 5px 10px;
+        border-radius: 50px;
+    }
+    #nav1 i{
+        font-size: 16px;
+        font-weight: 500;
+        border: 1.5px solid black;
+        padding: 5px 10px;
+        border-radius: 60px;
+    }
+    #nav2{
+        display: flex;
+align-items: center;
+    }
+    #nav2 h3{
+        font-weight: 500;
+        font-size: 22;
+        text-transform: uppercase;
+
+    }
+    #teeth{
+        color: #f6f2f2;
+        border: none rgb(18, 17, 17);
+        border-radius: 40PX;
+        background-color: RED;
+    }
+    /* #nav button{
+        padding: 7px 12px;
+       border: 1.5px solid black;
+       border-radius: 50px;
+       font-size: 16px;
+       font-weight: 500;
+       /* background-color: white; */
+       /* gap: 100px; */
+    /* }
+    #b1{
+        padding: 7px 12px;
+       border: 1.5px solid black;
+       border-radius: 50px;
+       font-size: 16px;
+       font-weight: 500;
+        background-color: white;
+    }
+    #b2{
+        color: #ffffff;
+        background-color: orangered;
+        border: none;
+    } */ 
+    #b1{
+        padding: 7px 12px;
+        border: 1.5px solid black;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: white;
+    }
+    #b2{
+        padding: 7px 12px;
+        border: none;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: orangered;
+        color: white;
+    }
+    h1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-transform: uppercase;
+        font-size: 150px;
+   font-weight: 300;
+        width: 100%;
+        text-align: center;
+    }
+    img{
+        height: 500px;
+        width: 400px;
+        object-fit: cover;
+        object-position:top;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 40px;
+    }
+    #img1{
+        transform: translate(-50%,-50%) rotate(-30deg);
+    }
+    #img2{
+        transform: translate(-50%,-50%) rotate(-20deg);
+    }
+    #img3{
+        transform: translate(-50%,-50%) rotate(-10deg);
+    }
+    /* #img4{
+        transform: translate(-50%,-50%) rotate(-40deg);
+    } */
+    #vdn{
+        position: absolute;
+        bottom: 20px;
+        left: 30px;
+        text-transform: capitalize;
+        font-size: small;
+        font-weight: 300;
+    }
+    #dot{
+        position: absolute;
+        bottom: 40px;
+        left: 30px;
+        color: red;
+        font-size: 8px;
+    }
+    #lasticons{
+position: absolute;
+bottom: 20px;
+right: 30px;
+
+}
+#startup{
+    font-size: small;
+font-weight: 300;
+text-transform: capitalize;
+}
